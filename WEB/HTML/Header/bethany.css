@@ -1,0 +1,536 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Kanit;
+}
+body{
+    background-image: url(bb1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:90vh ;
+    width: 100%;
+    
+}
+#sec{
+    background:white;
+    height: 65px;
+    font-size: 10px;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 20px;
+}
+#sub2{
+    background: #009970;
+    top: 21px;
+    height: 35px;
+    font-size: 35px;
+    width: 140px;
+    padding: 15px 10px;
+}
+#head{
+    color: white;
+    
+    position: relative;
+    top: -10px;
+    
+    left: 5%;
+    font-size: 35px;
+    width: 140px;
+}
+
+#menu{
+    position: absolute;
+    left: 28%;
+    top: 20px;
+    padding-left: 40px;
+}
+#lii{
+    display: inline;
+    padding: 10px;
+}
+#opt{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+}
+.active{
+    color: #009970;
+}
+.opt{
+    text-decoration: none;
+    font-size: 20px;
+}
+#opt:hover{
+    color: #009970;
+}
+#but{
+    position: absolute;
+    background: #009970;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 4px;
+    color: white;
+    left: 80%;
+    top: 16px;
+    border:solid 1px ;
+    border-radius: 40px;
+    width: 150px;;
+
+
+}
+/* .cont{
+    background: rgb(42, 40, 40);
+    color: #000000;
+    text-align: center;
+    margin-top: 50%;
+} */
+#secon{
+    color: rgba(11, 11, 11, 0.791);
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 58px;
+    
+}
+#subcon{
+    color: rgba(36, 36, 36, 0.871);
+    position: relative;
+    top: 110px;
+    text-align: center;
+    font-size: 20px;
+}
+#but2{
+    width: 180px;   
+    cursor: pointer;
+    position: relative;
+    top: 180px;
+    left: 756px;
+    font-size: 25px;
+    background: rgba(246, 250, 251, 0);
+    padding: 10px;
+    color: white;
+    border:solid 2px ;
+    border-radius: 30px;
+}
+#but2:hover{
+    background: #009970;
+}
+.box{
+    display: inline-block;
+    width: 28%;
+    border: solid 2px black;
+    background: white;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 35px;
+    cursor: pointer;
+    margin-top: -100px;
+
+}
+.servi{
+    color: black;
+    position: absolute;
+    top: 120%;
+    left: 45%;
+    font-size: 40px;
+}
+
+.services{
+    background: white;
+    margin-top: 900px;
+}
+.boxone:hover{
+    background: black;
+    color:white; 
+}
+.boxtwo:hover{
+    background: black;
+    color:white; 
+}
+.boxthree:hover{
+    background: black;
+    color:white; 
+}
+.servicenum{
+    font-size: 35px;
+
+}
+.servicename{
+    margin: 20px
+}
+.servicenum2{
+    font-size: 35px;
+
+}
+.servicename2{
+    margin: 20px
+}
+.servicenum3{
+    font-size: 35px;
+
+}
+.servicename3{
+    margin: 20px
+}
+.section1{
+    display: flex;
+}
+.maps{
+    margin-left: 140px;
+    margin
+}
+.left{
+    margin-left: 90px;
+    flex: 1;
+}
+.right{
+    
+    flex: 2.7;
+}
+#detail{
+    margin-left: 40px;
+    display: flex;
+    margin: 50px;
+}
+
+.fa-solid{
+    margin-top: 5px;
+    border-radius: 4px;
+    background: #ffc451;
+}
+
+.fa-location-dot{
+    font-size: 24px;
+    border: #ffc451;
+    background: ;
+    color: black;
+    border-radius: px;
+    padding: 8px;
+    height: 18px;
+    
+}
+.fa-phone{
+    font-size: 19px;
+    border: #ffc451;
+    background:;
+    columns: black;
+    border-radius: px;
+    padding: 8px;
+    height: 17px;
+}
+.fa-envelope{
+    font-size: 19px;
+    border: #ffc451;
+    background: #ffc451;
+    columns: black;
+    border-radius: px;
+    padding: 8px;
+    height: 17px;
+}
+.add{
+    margin-left: 20px;
+}
+.add2{
+    margin-left: 20px;
+
+}
+.add3{
+    margin-left: 20px;
+}
+.one{
+    color: black;
+}
+.two{
+    color: gray;
+}
+.input{
+    margin-top: 30px;
+}
+#inp1{
+    width:370px;
+    height: 40px;
+    margin-left:200px;
+}
+#inp2{
+    width: 370px;
+    margin-left: 34px;
+    height: 40px;
+}
+#inp3{
+    width:782px;
+    height: 40px;
+    margin-left:200px;
+}
+#inp4{
+    width:782px;
+    height: 40px;
+    margin-left:200px;
+    height: 100px;
+    padding: 4px;
+}
+.bt3{
+    margin-left: 550px;
+    margin-top: 15px;
+    background: rgb(248, 189, 81);
+    padding: 9px;
+    border: #ffc451;
+    border-radius: 3px;
+}
+#post-footer{
+    display:flex;
+    position: relative;
+    background: rgb(251, 250, 250);
+    color: black;
+    top: 1%;
+    
+    
+}
+.footmenu{
+    list-style: none;
+    line-height: 40px;
+}
+.foot{
+    margin: 20px;
+}
+.footerbox{
+    flex: 2;
+}
+.footerbox2{
+    flex: 1;
+}
+.ourservices{
+    flex: 1;
+}
+.newsletter{
+    flex: 2 ;
+}
+
+/* .resname{
+    margin-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+/* .ad{
+    margin-left: 55px;
+    color: rgb(53, 52, 52);
+} */
+
+
+.footmenu2{
+    /* margin-left: 50px;
+    margin-bottom: 11px;
+    padding: 6px; */
+    color: rgb(53, 52, 52);
+    /* border-radius: 5px;
+     */
+}
+.footmenu3{
+    margin-left: 1px;
+    margin-top: 11px;
+    padding: 6px;
+    width: 190px;
+    border-radius: 100px;
+    border: 2px solid #009970; 
+    cursor: pointer;
+    color: black;
+}
+.footbutton{
+    position: relative;
+    padding: 6px;
+    right: 35px;
+    color: white;
+    background:#009970;
+    border: solid 2px #009970;
+    border-radius: 100px;
+    cursor: pointer;
+    
+    
+}
+.icon{
+    position: absolute;
+    left: 70%;
+    top: 100%;
+}
+.fa-brands{
+    border: 2px solid #009970;
+    border-radius: 100%;
+    background: #009970;
+    color: white;
+    margin: 7px;
+    position: relative;
+    left: -4px;
+    top: -95px;
+}
+.fa-facebook{
+    padding: 8px;
+}
+.fa-linkedin{
+    padding: 8px;
+}
+.fa-twitter{
+    padding: 8px;
+}
+.fa-instagram{
+    padding: 8px;
+}
+
+.fa-facebook:hover{
+    border: 2px solid #03fab9;
+    background: #03fab9;
+}
+.fa-twitter:hover{
+    border: 2px solid #03fab9;
+    background: #03fab9;
+}
+.fa-linkedin:hover{
+    border: 2px solid #03fab9;
+    background: #03fab9;
+}
+.fa-instagram:hover{
+    border: 2px solid #03fab9;
+    background: #03fab9;
+}
+.footbutton:hover{
+    color: black;
+    background:#03fab9;
+    border: 2px solid gray;
+}
+.cont{
+    text-align: center;
+    font-size: 40px;
+}
+.fa-bars{
+    color: white;
+}
+@media screen and (min-width:480px) and (max-width:600px) {
+    #sec{
+        margin-left: 5px;
+        margin-top: 1px;
+        font-size: 10px;
+        width: 400px;
+        border: none;
+        
+    }
+    #head{
+        font-size: 30px;
+        margin-top: 7px;
+    }
+    #opt{
+        display: none;
+    }
+    .active{
+        display: none;
+    }
+    .cont{
+        margin-top: 520px;
+        text-align: center;
+    }
+    #but{
+        margin-left: -70px;
+        padding: 4px;
+        width: 125px;
+        top: 15px;
+        display: none;
+        overflow: hidden;
+    }
+    #secon{
+        font-size: 40px;
+    }
+    .fa-bars{
+        color: black;
+        position: absolute;
+        left: 2
+        0px;
+        top: 0px;
+        font-size: 30px;
+        
+    }
+    .servi{
+        font-size: 30px;
+    }
+    .box{
+        width: 390px;
+    }
+    
+       
+
+     /* .footerbox{
+        
+        top: 0px;
+     }
+    .footerbox2{
+        width: 220px;
+        position: absolute;
+        left: -35px;
+        top: 17%;
+
+
+    }
+    .ourservices{
+        width: 220px;
+        position: absolute;
+        left: -35px;
+        top: 36%;
+    }
+    .newsletter{
+        width: 500px;
+        position: absolute;
+        left: -35px;
+        top: 57%;
+    } 
+    
+    #post-footer{
+        height:100px;
+        display: flex;
+        flex-direction: column;
+    }
+    #but2{
+        position: absolute;
+        left: 150px;
+        top: 380px;
+        border-radius: 10%;
+    }
+    #but2:hover{
+        background: orange;
+    }
+    .foot{
+        
+    }
+     */
+     #post-footer{
+        display: flex;
+        flex-direction: column;
+     }
+     .foot{
+        margin-top: 20px;
+     }
+     .footerbox{
+        flex: 2;
+     }
+     .fa-brands{
+       margin-top:90px;
+     }
+     .fa-facebook{
+        position: absolute;
+        left: 0px;
+        top: 140px;
+     }
+     .fa-twitter{
+        position: absolute;
+        left: 40px;
+        top: 140px;
+     }
+     .fa-linkedin{
+        position: absolute;
+        left: 80px;
+        top: 140px;
+     }
+     .fa-instagram{
+        position: absolute;
+        left: 120px;
+        top: 140px;
+     }
+} 

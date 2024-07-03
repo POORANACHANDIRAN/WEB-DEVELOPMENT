@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    
+}
+#logo{
+    position: absolute;
+    width: 214px;
+    height: 30px;
+    left: 100px;
+    top: 15px;
+
+}
+  
+#bethany{
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 50px;
+    font-size: 32px;
+
+}
+
+#h{
+    background-color:#023b6d;
+    height: 65px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+span{
+    color:#ffc451;
+}
+.options{
+    display: inline;
+    padding: 10px;
+
+}
+.menu-name{
+    text-decoration: none;
+    color: #ffffffb3;
+    font-size: 16px;
+}
+.menu-name:hover{
+    color:white;
+    cursor: pointer;
+
+}
+#menu{
+    position: absolute;
+    left: 750px;
+    top: 15px;
+}
+#btn{
+    position: absolute;
+    right: 100px;
+    top: 13px;
+    border-radius: 25px;
+    padding: 8px 30px;
+    border: 2px solid #EB5D1E;
+    background: #EB5D1E;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #ee8152;
+    border: 2px solid #ee8152 ;
+
+}
+.active{
+    color: white;
+}
+
+#content{
+    position: relative;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    font-weight: 700;
+    color:#023b6d ;
+}
+#total-content{
+    margin-top: 100px;
+    text-align: center;
+}
+#sub-content{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    top: 20px;
+    color: black;
+}
+#btn-e{
+   
+    border-radius: 5px;
+    padding: 8px 30px;
+    border: 2px solid #EB5D1E;
+    background: #EB5D1E;
+    color: white;
+    margin-top: 3%;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 15px;
+
+
+}
+#btn-e:hover{
+    border: 2px solid #ee8152;
+    color: black;
+    background-color: #ee8152;
+}
+#image{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    width: 600px;
+}
+
+#search{
+    height: 40px;
+    width: 200px;
+   margin-top: 0px;
+   background-color:#023b6d ;
+   border: solid 1px white;
+   padding-left: 10px ;
+} 
+#web1{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    top: 50px;
+}
+#image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+#web-content{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+#btn1{
+    position: absolute;
+    left: 450px;
+    top:140px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    color: #023b6d;
+    border-radius: 5px;
+    border: 1px solid #023b6d;
+    background-color: white;
+    font-size: 15px;
+}
+button:hover{
+    border: 1px solid #1071c5;
+    color: #1071c5;
+}
+
+.contact{
+    width: 22%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#post-footer{
+    background-color: #023b6d;
+    color: white;
+    display: flex;
+    height: 230px;
+    margin-top: 30px;
+
+}
+.b1{
+    background-color: #023b6d;
+}
+.b2{
+    background-color: #023b6d;
+}
+.b3{
+    background-color: #023b6d;
+}
+ul {
+    list-style-type: none;
+  }
+#contact{
+    text-decoration: none;
+    margin-top:70px;
+    text-align: center;
+    color: black;
+}
+#subscribe{
+    background-color: #1071c5;
+    height: 55px;
+    width:100px;
+    position: relative;
+    right: 5px;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+} 
+#sub{
+    height: 50px;
+    width:200px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.fa-brands{
+    background-color: #023b6d;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+   
+}
+.fa-brands:hover{
+    background-color: white;
+    border: 2px solid #023b6d;
+    color: #023b6d;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 10px;
+   
+}.box:hover{
+    transform: scale(1.1);
+}

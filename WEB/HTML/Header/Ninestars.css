@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+#sec{
+    background:white;
+    height: 65px;
+    font-size: 10px;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 20px;
+}
+#sub2{
+    color: ;
+    
+    top: 21px;
+    
+    height: 35px;
+    font-size: 35px;
+    width: 140px;
+    padding: 15px 10px;
+}
+#head{
+    color: #7a6960;
+    font-weight: 400;
+    position: relative;
+    top: -10px;
+    
+    left: 5%;
+    font-size: 40px;
+    letter-spacing: 3px;
+    width: 140px;
+}
+
+#menu{
+    position: absolute;
+    left: 28%;
+    top: 20px;
+    padding-left: 40px;
+}
+#lii{
+    display: inline;
+    padding: 10px;
+    
+}
+
+.opt{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+}
+.active{
+    color: #fe7608;
+}
+#opt:hover{
+    color: #fe7608;
+}
+#but{
+    position: absolute;
+    background: #fe7608;
+    font-size: 20px;
+    padding: 4px;
+    color: white;
+    left: 80%;
+    top: 16px;
+    border:solid 1px ;
+    border-radius: 40px;
+    width: 140px;;
+
+
+}
+#secon{
+    color: #7a6960;
+    
+    position: relative;
+    top: 100px;
+    font-size: 38px;
+    left: 5%;
+    
+}
+#subcon{
+    color: rgba(36, 36, 36, 0.871);
+    position: relative;
+    top: 110px;
+    left: 5%;
+    font-size: 20px;
+}
+#but2{
+    width: 140px;   
+    position: relative;
+    top: 130px;
+    left: 78px;
+    font-size: 20px;
+    background: #fe7608;
+    padding: 4px;
+    color: white;
+    border:solid 1px ;
+    border-radius: 40px;
+}
+#img{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+}
+
+
+.maps{
+    margin-left: 140px;
+    margin-top: 500px;
+}
+.left{
+    margin-left: 90px;
+    flex: 1;
+    
+}
+.right{
+    
+    flex: 2.7;
+}
+#detail{
+    margin-left: 40px;
+    display: flex;
+    margin: 50px;
+}
+.section1{
+    display: flex;
+}
+
+.fa-solid{
+    margin-top: 5px;
+    border-radius: 4px;
+    background: #ffc451;
+}
+
+.fa-location-dot{
+    font-size: 24px;
+    border: #ffc451;
+    background: ;
+    color: black;
+    border-radius: px;
+    padding: 8px;
+    height: 18px;
+    
+}
+.fa-phone{
+    font-size: 19px;
+    border: #ffc451;
+    background:;
+    columns: black;
+    border-radius: px;
+    padding: 8px;
+    height: 17px;
+}
+.fa-envelope{
+    font-size: 19px;
+    border: #ffc451;
+    background: #ffc451;
+    columns: black;
+    border-radius: px;
+    padding: 8px;
+    height: 17px;
+}
+.add{
+    margin-left: 20px;
+}
+.add2{
+    margin-left: 20px;
+
+}
+.add3{
+    margin-left: 20px;
+}
+.one{
+    color: black;
+}
+.two{
+    color: gray;
+    font-size: 20px;
+}
+.input{
+    margin-top: 30px;
+}
+#inp1{
+    width:370px;
+    height: 40px;
+    margin-left:200px;
+}
+#inp2{
+    width: 370px;
+    margin-left: 34px;
+    height: 40px;
+}
+#inp3{
+    width:782px;
+    height: 40px;
+    margin-left:200px;
+}
+#inp4{
+    width:782px;
+    height: 40px;
+    margin-left:200px;
+    height: 100px;
+    padding: 4px;
+}
+.bt3{
+    margin-left: 550px;
+    margin-top: 15px;
+    background: rgb(248, 189, 81);
+    padding: 9px;
+    border: #ffc451;
+    border-radius: 3px;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+#post-footer{
+    display:flex;
+    position: absolute;
+    /*background: rgb(251, 250, 250);*/
+    color: black;
+    padding-left:35px;
+    
+    
+}
+.foot{
+    margin: 20px;
+}
+.footerbox{
+    height: 25%;
+    width: 20%;
+    
+    
+    /*border: 2px solid orange;*/
+}
+.resname{
+    margin-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+.ad{
+    margin-left: 55px;
+    color: rgb(53, 52, 52);
+    font-size: 23px;
+}
+.footerbox2{
+    height: 25%;
+    width: 20%;
+    
+    
+    /*border: 2px solid orange;*/
+}
+
+.footmenu{
+    margin-left: 65px;
+    color: rgb(53, 52, 52);
+    line-height: 40px;
+    font-size: 23px;
+}
+.ourservices{
+    height: 5%;
+    width: 20%;
+    /*border: 2px solid orange;*/
+
+}
+.newsletter{
+    height: 25%;
+    width: 20%;
+    /*border: 2px solid orange;*/
+}
+.footmenu2{
+    margin-left: 50px;
+    margin-bottom: 11px;
+    padding: 6px;
+    color: rgb(53, 52, 52);
+    border-radius: 5px;
+    font-size: 23px;
+    /* border: 2px solid rgb(75, 68, 68) ;  */
+}
+.footmenu3{
+    margin-left: 57px;
+    margin-bottom: 11px;
+    padding: 6px;
+    width: 140px;
+    border-radius: 100px;
+    border: 2px solid gray; 
+    cursor: pointer;
+    color: black;
+}
+.footbutton{
+    position: relative;
+    padding: 6px;
+    right: 30px;
+    color: white;
+    background: gray;
+    border: solid 2px gray;
+    border-radius: 100px;
+    cursor: pointer;
+    
+    
+}
+.icon{
+    position: absolute;
+    left: 70%;
+    top: 100%;
+}
+.fa-brands{
+    border: 2px solid gray;
+    border-radius: 100%;
+
+    color: gray;
+    margin: 1px;
+    position: relative;
+    left: 40px;
+    top: px;
+    
+}
+.fa-facebook{
+    padding: 9px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    
+}
+.fa-linkedin{
+    padding: 9px;
+}
+.fa-twitter{
+    padding: 9px;
+}
+.fa-instagram{
+    padding: 9px;
+}
+
+.fa-facebook:hover{
+    color:;
+    border: 2px solid #fe7608;
+    background: ;
+}
+.fa-twitter:hover{
+    color:;
+    border: 2px solid #fe7608;
+    background: ;
+}
+.fa-linkedin:hover{
+    color:;
+    border: 2px solid #fe7608;
+    background: ;
+}
+.fa-instagram:hover{
+    color:;
+    border: 2px solid #fe7608;
+    background: ;
+}
+.footbutton:hover{
+    color: black;
+    background:#fe7608;
+    border: 2px solid #fe7608;
+}
+@media screen and (min-width:480px) and (max-width:600px) {
+    #head{
+        margin-left: -15px;
+        top: 17px;
+        font-size: 30px;
+        width: 285px;
+        border: none;
+        
+    }
+    #secon{
+        font-size: px;
+    }
+    #img{
+        position: absolute;
+        left: 10px;
+        top: 300px;
+        width: 420px;
+    }
+    #opt{
+        display: none;
+    }
+    .active{
+        display: none;
+    }
+    #but{
+        margin-left: -70px;
+        padding: 4px;
+        width: 125px;
+        top: 15px;
+        display: none;
+        overflow: hidden;
+    }
+    #secon{
+        font-size: px;
+    }
+    .fa-bars{
+        color: #7a6960;
+        position: absolute;
+        left: 380px;
+        top: 30px;
+        font-size: 30px;
+        padding: 3px;
+    }
+    .servi{
+        font-size: 30px;
+    }
+    .box{
+        width: 390px;
+    }
+    .footerbox{
+        width: 260px;
+        position: absolute;
+        left: -35px;
+        top: 200px;
+    }
+    /* .fa-brands{
+        position: absolute;
+        left: 1px;
+    } */
+    .footerbox2{
+        width: 280px;
+        position: absolute;
+        left: -35px;
+        top: 35%;
+
+
+    }
+    .ourservices{
+        width: 280px;
+        position: absolute;
+        left: -35px;
+        top: 54%;
+    }
+    .newsletter{
+        width: 499px;
+        position: absolute;
+        left: -35px;
+        top: 75%;
+
+        
+        
+    }
+    #post-footer{
+        height:1500px;
+    }
+    #but2{
+        position: absolute;
+        left: 190px;
+        top: 650px;
+        border-radius: 10%;
+    }
+    #but2:hover{
+        background: orange;
+    }
+    .foot{
+        overflow: ;
+    }
+    /* .footerbox2{
+        width: 510px;
+    } */
+    .footmenu{
+        list-style: none;
+    }
+    
+} 
